@@ -1,0 +1,256 @@
+GraphicsWindow.Width = 1500
+GraphicsWindow.Height = 500
+GraphicsWindow.PenColor = "Red"
+Turtle.Speed = 10
+F()
+Space()
+U()
+Space()
+C()
+Space()
+K()
+Space()
+Space()
+Y()
+Space()
+O()
+Space()
+U()
+Turtle.X = 320
+Turtle.Y = 360
+G()
+Space()
+E()
+Space()
+T()
+Space()
+Space()
+R()
+Space()
+A()
+Space()
+T()
+Space()
+EE()
+Space()
+O()
+Apos()
+Space()
+D()
+
+Sub F
+  Turtle.Move(100)
+  Turtle.Turn(90)
+  Turtle.Move(50)
+  Turtle.Turn(180)
+  Turtle.Move(50)
+  Turtle.Turn(270)
+  Turtle.Move(40)
+  Turtle.Turn(-90)
+  Turtle.Move(40)
+  Turtle.Turn(180)
+  Turtle.Move(40)
+  Turtle.Turn(-90)
+  Turtle.Move(60)
+  Turtle.Turn(-90) 
+EndSub
+
+Sub U
+  Turtle.Turn(-90)
+  Turtle.Move(70)
+  Turtle.Turn(180)
+  Turtle.Move(70)
+  Turtle.Turn(-90)
+  Turtle.Move(70)
+  Turtle.Turn(-90)
+  Turtle.Move(70)
+  Turtle.Turn(180)
+  Turtle.Move(70)
+  Turtle.Turn(-90)
+EndSub
+
+Sub C
+  Turtle.Turn(-90)
+  Turtle.Move(70)
+  Turtle.Turn(90)
+  Turtle.Move(70)
+  Turtle.Turn(180)
+  Turtle.Move(70)
+  Turtle.Turn(-90)
+  Turtle.Move(70)
+  Turtle.Turn(-90)
+  Turtle.Move(70)
+EndSub
+
+Sub K
+  Turtle.Turn(-90)
+  Turtle.Move(70)
+  Turtle.Turn(180)
+  Turtle.Move(35)
+  Turtle.Turn(-135)
+  Turtle.Move(49.4974746831)
+  Turtle.Turn(180)
+  Turtle.Move(49.4974746831)
+  Turtle.Turn(-90)
+  Turtle.Move(49.4974746831)
+  Turtle.Turn(-45)
+EndSub
+
+Sub Space
+  GraphicsWindow.PenColor = "White"
+  Turtle.Move(70)
+  GraphicsWindow.PenColor = "Red"
+EndSub
+
+Sub Y
+  Turtle.Turn(-90)
+  Turtle.Move(40)
+  Turtle.Turn(30)
+  Turtle.Move(39.16221868)
+  Turtle.Turn(180)
+  Turtle.Move(39.16221868)
+  Turtle.Turn(120)
+  Turtle.Move(39.16221868 )
+  Turtle.Turn(180)
+  Turtle.Move(39.16221868 )
+  Turtle.Turn(30)
+  Turtle.Move(40)
+  Turtle.Turn(-90)
+EndSub
+
+Sub O
+  Turtle.Move(70)
+  Turtle.Turn(-90)
+  Turtle.Move(70)
+  Turtle.Turn(-90)
+  Turtle.Move(70)
+  Turtle.Turn(-90)
+  Turtle.Move(70)
+  Turtle.Turn(-90)
+  Turtle.Move(70)
+EndSub
+
+Sub G
+  Turtle.Turn(-90)
+  Turtle.Move(100)
+  Turtle.Turn(90)
+  Turtle.Move(60)
+  Turtle.Turn(180)
+  Turtle.Move(60)
+  Turtle.Turn(-90)
+  Turtle.Move(100)
+  Turtle.Turn(-90)
+  Turtle.Move(60)
+  Turtle.Turn(-90)
+  Turtle.Move(40)
+  Turtle.Turn(-90)
+  Turtle.Move(30)
+  Turtle.Turn(180)
+  Turtle.Move(60)
+  Turtle.Turn(180)
+  Turtle.Move(30)
+  Turtle.Turn(-90)
+  Turtle.Move(40)
+  Turtle.Turn(-90)
+EndSub
+
+Sub E
+  Turtle.Turn(-90)
+  Turtle.Move(70)
+  Turtle.Turn(90)
+  Turtle.Move(40)
+  Turtle.Turn(180)
+  Turtle.Move(40)
+  Turtle.Turn(-90)
+  Turtle.Move(35)
+  Turtle.Turn(-90)
+  Turtle.Move(30)
+  Turtle.Turn(180)
+  Turtle.Move(30)
+  Turtle.Turn(-90)
+  Turtle.Move(35)
+  Turtle.Turn(-90)
+  Turtle.Move(40)
+EndSub
+
+Sub T
+  Turtle.Turn(-90)
+  Turtle.Move(70)
+  Turtle.Turn(-90)
+  Turtle.Move(35)
+  Turtle.Turn(180)
+  Turtle.Move(70)
+  Turtle.Turn(180)
+  Turtle.Move(35)
+  Turtle.Turn(-90)
+  Turtle.Move(70)
+  Turtle.Turn(-90)
+EndSub
+
+Sub R
+  Turtle.Turn(-90)
+  Turtle.Move(100)
+  Turtle.Turn(135)
+  Turtle.Move(38.8908729653)
+  Turtle.Turn(90)
+  Turtle.Move(38.8908729653)
+  Turtle.Turn(-75)
+  Turtle.Move(51.9615242271)
+  Turtle.Turn(-60)
+EndSub
+
+Sub A
+  Turtle.Turn(-75)
+  Turtle.Move(72.4693326287)
+  Turtle.Turn(150)
+  Turtle.Move(48.3128884191)
+  Turtle.Turn(105)
+  Turtle.Move(25.0085912936)
+  Turtle.Turn(180)
+  Turtle.Move(25.0085912936)
+  Turtle.Turn(75)
+  Turtle.Move(72.4693326287 - 48.3128884191)
+  Turtle.Turn(-75)
+EndSub
+
+Sub EE
+  Turtle.Move(35)
+  Turtle.Turn(-90)
+  Turtle.Move(70)
+  Turtle.Turn(-90)
+  Turtle.Move(35)
+  Turtle.Turn(180)
+  Turtle.Move(70)
+  Turtle.Turn(180)
+  Turtle.Move(35)
+  Turtle.Turn(-90)
+  Turtle.Move(70)
+  Turtle.Turn(-90)
+  Turtle.Move(35)
+EndSub
+
+Sub D
+  Turtle.Turn(-90)
+  Turtle.Move(100)
+  Turtle.Turn(90)
+  For i = 0 To 179
+    Turtle.Move(0.872664626)
+    Turtle.Turn(1)
+    EndFor
+EndSub
+
+Sub Apos
+  GraphicsWindow.PenColor = "White"
+  Turtle.Move(10)
+  Turtle.Turn(-90)
+  Turtle.Move(90)
+  Turtle.Turn(20)
+  GraphicsWindow.PenColor = "Red"
+  Turtle.Move(10.64177772)
+  Turtle.Turn(180)
+  Turtle.Move(10.64177772)
+  GraphicsWindow.PenColor = "White"
+  Turtle.Turn(-20)
+  Turtle.Move(90)
+  Turtle.Turn(-90)
+EndSub
